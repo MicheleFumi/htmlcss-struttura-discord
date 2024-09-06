@@ -204,7 +204,9 @@
 
 .footer{
 
-    padding: 2rem;
+    padding: 0.25rem 2rem 2rem 2rem;
+    margin: auto;
+    
 }
  
   .foot_sect_1{
