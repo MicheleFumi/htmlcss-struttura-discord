@@ -114,26 +114,77 @@
     /*  display: flex; */
      padding: 2rem;
      flex-direction: column;
+     background-color: lightgrey;
   }
  
-  .fl_2_sq{
+  .fl_3_sq{
  
      width: 70%;
      margin: auto;
      border: 1px dashed black; /* DEBUG-FEATURE!!! */
      height: 20rem;
-     
      display: flex;
      
   }
-  .main2{
+  .main3{
+     width: 40%;
+     background-color: lightblue;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+ 
+  }
+  .aside3{
+     width: 60%;
+     background-color: lightsalmon;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+  }
+
+  /* 4TH CARD */
+
+ .sect_4{
+    /*  display: flex; */
+     padding: 2rem;
+     flex-direction: column;
+     
+  }
+ 
+  .fl_4_sq{
+ 
+     width: 70%;
+     margin: auto;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     height: 20rem;
+
+     display: flex;
+     
+  }
+  .main4{
      width: 60%;
      background-color: lightblue;
      border: 1px dashed black; /* DEBUG-FEATURE!!! */
  
   }
-  .aside2{
+  .aside4{
      width: 40%;
      background-color: lightsalmon;
      border: 1px dashed black; /* DEBUG-FEATURE!!! */
   }
+
+  /* 5TH CARD */
+
+
+ .sect_5{
+    background-color: lightgrey;
+    display: flex;
+    padding: 2rem;
+}  
+    
+ .fl_5_sq{
+
+    align-self: center;
+    background-color:green;
+    width: 70%;
+    margin: auto;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    height: 40rem;
+ 
+ }
