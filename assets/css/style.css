@@ -202,7 +202,10 @@
 
 /*#region-1ST CARD */
 
+.footer{
 
+    padding: 2rem;
+}
  
   .foot_sect_1{
  
@@ -210,6 +213,7 @@
      margin: auto;
      border: 1px dashed black; /* DEBUG-FEATURE!!! */
      height: 25rem;
+    
 
      
   }
@@ -217,13 +221,14 @@
   .foot_fl_sq{
     display: flex;
     height: 100%;
+    margin-top: 0.25rem;
 
 
   }
 
 
     ._1st_box{
-     width: 60%;
+     width: 40%;
      background-color:lightsalmon;
      border: 1px dashed black; /* DEBUG-FEATURE!!! */
      
