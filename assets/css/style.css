@@ -8,28 +8,41 @@
     Img{
     Max-width: 100%
 }
+
+
+
+
 /* HEADER COMMON */
 .header{
     background-color: aqua;
     padding: 1rem;
 }
 
+.h_fl_link> a{
+    padding-left: 1rem;
+}
+
+.h_fl_container> *{
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    padding: 0.20rem;
+}
 
 /* FLEX_HEADER */
 .h_fl_container{
-display: flex;
-margin: auto;
-justify-content: space-around;
-background-color: #ffd500;
-width: 70%;
-padding: 0.5rem;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    background-color: #ffd500;
+    width: 70%;
+    
+    
 
 }
 
 .h_fl_logo{
-display: flex;
-justify-content: flex-start;
-width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
 }
 
 .h_fl_link{
@@ -39,8 +52,8 @@ width: 25%;
     
     }
 
-    .h_fl_login{
-        display: flex;
-        justify-content: flex-end;
-        width: 25%;
-        }
+.h_fl_login{
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+ }
