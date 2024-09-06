@@ -37,8 +37,6 @@
 }
 
 .h_fl_logo{
-    display: flex;
-    justify-content: flex-start;
     width: 25%;
 }
 
@@ -54,37 +52,88 @@
     justify-content: flex-end;
     width: 25%;
  }
- /* MAIN COMMON */
  
+ 
+
+
+
+ /* 1ST CARD */
+
+
  .sect_1{
     background-color: blue;
     display: flex;
     padding: 2rem;
-   
+}  
     
- }
-
- /* FLEX MAIN */
-.main_fl{
-   display: flex; 
-   flex-direction: column ;
-   
-
-}
-
-
-
-
  .fl_1_sq{
-    display: flex;
+
     align-self: center;
     background-color: fuchsia;
     width: 50%;
     margin: auto;
-    border: 1px dashed black;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
     height: 20rem;
     border-radius: .5rem;
     
+ }
+
+ /* 2ND CARD */
+
+ .sect_2{
+   /*  display: flex; */
+    padding: 2rem;
+    flex-direction: column;
+ }
+
+ .fl_2_sq{
+
+    width: 70%;
+    margin: auto;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    height: 20rem;
     
+    display: flex;
     
  }
+ .main2{
+    width: 60%;
+    background-color: lightblue;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+
+ }
+ .aside2{
+    width: 40%;
+    background-color: lightsalmon;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+ }
+
+/* 3RD CARD */
+
+ .sect_3{
+    /*  display: flex; */
+     padding: 2rem;
+     flex-direction: column;
+  }
+ 
+  .fl_2_sq{
+ 
+     width: 70%;
+     margin: auto;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     height: 20rem;
+     
+     display: flex;
+     
+  }
+  .main2{
+     width: 60%;
+     background-color: lightblue;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+ 
+  }
+  .aside2{
+     width: 40%;
+     background-color: lightsalmon;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+  }
