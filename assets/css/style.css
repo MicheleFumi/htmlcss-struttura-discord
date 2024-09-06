@@ -208,17 +208,17 @@ hr{
 }
 .margin{
     margin-bottom: 1rem;
-    background-color: hsl(0, 2%, 11%);
+    
 }
 
 .footer{
 
     padding: 0.25rem 2rem 0rem 2rem;
     margin: auto;
-    
-    /*#endregion-FOOTER-UTILITY */
+    background-color: hsl(0, 2%, 11%);
 }
- 
+ /*#endregion-FOOTER-UTILITY */
+
 /*#region-1STCARD  */
   .foot_sect_1{
  
