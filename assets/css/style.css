@@ -207,14 +207,16 @@
     padding: 0.25rem 2rem 2rem 2rem;
     margin: auto;
     
+    
 }
  
   .foot_sect_1{
  
      width: 70%;
      margin: auto;
-     border: 1px dashed black; /* DEBUG-FEATURE!!! */
      height: 25rem;
+     padding-bottom: 2rem;
+     
     
 
      
@@ -260,6 +262,45 @@
 
 /*#endregion-1ST CARD */
 
+
+.footer{
+    
+    padding: 1rem 1rem 0 1rem;
+}
+.button{
+    background-color: pink;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     
+
+}
+
+
+.foot_fl_container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 70%;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+
+.foot_fl_logo{
+    justify-content: center;
+    width: 3rem;
+    background-color: pink;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    display: flex;
+}
+
+
+
+.foot_fl_button{
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+
+ }
 
 /*#endregion-FOOTER  */
 
