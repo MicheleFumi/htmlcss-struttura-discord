@@ -273,8 +273,12 @@
      
 
 }
-
-
+hr{
+    color: white;
+}
+.margin{
+    margin-bottom: 1rem;
+}
 .foot_fl_container{
     display: flex;
     margin: auto;
