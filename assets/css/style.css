@@ -195,21 +195,31 @@
  /*#endregion-MAIN*/
 
 /*#region-FOOTER */
-.footer{
 
+/*#region-FOOTER-UTILITY */
+.button{
+    background-color: pink;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     
+
+}
+hr{
+    color: white;
+}
+.margin{
+    margin-bottom: 1rem;
     background-color: hsl(0, 2%, 11%);
 }
 
-/*#region-1ST CARD */
-
 .footer{
 
-    padding: 0.25rem 2rem 2rem 2rem;
+    padding: 0.25rem 2rem 0rem 2rem;
     margin: auto;
     
-    
+    /*#endregion-FOOTER-UTILITY */
 }
  
+/*#region-1STCARD  */
   .foot_sect_1{
  
      width: 70%;
@@ -229,7 +239,6 @@
 
 
   }
-
 
     ._1st_box{
      width: 40%;
@@ -262,23 +271,7 @@
 
 /*#endregion-1ST CARD */
 
-
-.footer{
-    
-    padding: 1rem 1rem 0 1rem;
-}
-.button{
-    background-color: pink;
-    border: 1px dashed black; /* DEBUG-FEATURE!!! */
-     
-
-}
-hr{
-    color: white;
-}
-.margin{
-    margin-bottom: 1rem;
-}
+/*#region-2NDCARD */
 .foot_fl_container{
     display: flex;
     margin: auto;
@@ -297,8 +290,6 @@ hr{
     display: flex;
 }
 
-
-
 .foot_fl_button{
     display: flex;
     justify-content: flex-end;
@@ -306,5 +297,6 @@ hr{
 
  }
 
-/*#endregion-FOOTER  */
+/*#endregion-2NDCARD */
 
+/*#endregion-FOOTER */
