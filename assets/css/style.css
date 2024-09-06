@@ -59,6 +59,7 @@
  .sect_1{
     background-color: blue;
     display: flex;
+    padding: 2rem;
    
     
  }
@@ -74,14 +75,15 @@
 
 
 
- .fl_main_sq{
+ .fl_1_sq{
     display: flex;
     align-self: center;
-    background-color: red;
+    background-color: fuchsia;
     width: 50%;
     margin: auto;
     border: 1px dashed black;
-    
+    height: 20rem;
+    border-radius: .5rem;
     
     
     
