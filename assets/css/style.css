@@ -54,7 +54,7 @@
 
  /*#region-MAIN*/
 
- /*#region-1ST CARD */
+     /*#region-1ST CARD */
 
 
  .sect_1{
@@ -76,7 +76,7 @@
  }
 /*#endregion-1ST CARD */
 
-/*#region-2ND CARD */
+    /*#region-2ND CARD */
 
  .sect_2{
   
@@ -108,7 +108,7 @@
  }
 /*#endregion-2ND CARD */
 
-/*#region-3RD CARD */
+    /*#region-3RD CARD */
 
  .sect_3{
    
@@ -139,7 +139,7 @@
   }
 /*#endregion-3RD CARD */
 
-/*#region-4TH CARD */
+    /*#region-4TH CARD */
 
  .sect_4{
    
@@ -171,7 +171,7 @@
   }
 /*#endregion-4TH CARD */
 
-/*#region-5TH CARD */
+    /*#region-5TH CARD */
 
 
  .sect_5{
@@ -196,7 +196,7 @@
 
 /*#region-FOOTER */
 
-/*#region-FOOTER-UTILITY */
+    /*#region-FOOTER-UTILITY */
 .button{
     background-color: pink;
     border: 1px dashed black; /* DEBUG-FEATURE!!! */
@@ -219,7 +219,7 @@ hr{
 }
  /*#endregion-FOOTER-UTILITY */
 
-/*#region-1STCARD  */
+    /*#region-1STCARD  */
   .foot_sect_1{
  
      width: 70%;
@@ -271,7 +271,7 @@ hr{
 
 /*#endregion-1ST CARD */
 
-/*#region-2NDCARD */
+    /*#region-2NDCARD */
 .foot_fl_container{
     display: flex;
     margin: auto;
