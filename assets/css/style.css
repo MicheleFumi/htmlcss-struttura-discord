@@ -82,6 +82,7 @@
   
     padding: 2rem;
     flex-direction: column;
+    margin: auto;
  }
 
  .fl_2_sq{
@@ -90,8 +91,8 @@
     margin: auto;
     border: 1px dashed black; /* DEBUG-FEATURE!!! */
     height: 20rem;
+   display: flex;
     
-    display: flex;
     
  }
  .main2{
@@ -201,11 +202,7 @@
 
 /*#region-1ST CARD */
 
-.sect_2{
-     padding: 2rem;
-     display:flex;
-     width: 70%;
-  }
+
  
   .foot_sect_1{
  
