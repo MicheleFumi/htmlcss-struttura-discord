@@ -79,7 +79,7 @@
 /*#region-2ND CARD */
 
  .sect_2{
-   /*  display: flex; */
+  
     padding: 2rem;
     flex-direction: column;
  }
@@ -110,7 +110,7 @@
 /*#region-3RD CARD */
 
  .sect_3{
-    /*  display: flex; */
+   
      padding: 2rem;
      flex-direction: column;
      background-color: lightgrey;
@@ -141,7 +141,7 @@
 /*#region-4TH CARD */
 
  .sect_4{
-    /*  display: flex; */
+   
      padding: 2rem;
      flex-direction: column;
      
@@ -194,8 +194,51 @@
  /*#endregion-MAIN*/
 
 /*#region-FOOTER */
+.footer{
 
+    background-color: hsl(0, 2%, 11%);
+}
 
+/*#region-1ST CARD */
+
+.sect_2{
+     padding: 2rem;
+     flex-direction: column;
+  }
+ 
+  .foot_sect_1{
+ 
+     width: 70%;
+     margin: auto;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+     height: 20rem;
+     display: flex;
+     
+  }
+    ._1st_box{
+     width: 70%;
+     background-color:lightsalmon;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+    }
+  
+  ._2nd_box{
+     width: 10%;
+     background-color: aquamarine;
+     border: 1px dashed black; /* DEBUG-FEATURE!!! */
+  }
+  ._3nd_box{
+    width: 10%;
+    background-color: aquamarine;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+  }
+
+  ._4snd_box{
+    width: 10%;
+    background-color: aquamarine;
+    border: 1px dashed black; /* DEBUG-FEATURE!!! */
+  }
+
+/*#endregion-1ST CARD */
 
 
 /*#endregion-FOOTER  */
