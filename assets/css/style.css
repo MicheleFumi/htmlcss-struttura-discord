@@ -1,4 +1,4 @@
-/* REGION COMMON */
+/*#region-COMMON */
 *{
     Margin:0;
     Padding: 0;
@@ -8,11 +8,9 @@
     Img{
     Max-width: 100%
 }
+/*#endregion-COMMON */
 
-
-
-
-/* HEADER COMMON */
+/*#region-HEADER */
 .header{
     background-color: aqua;
     padding: 1rem;
@@ -52,12 +50,11 @@
     justify-content: flex-end;
     width: 25%;
  }
- 
- 
+/*#endregion-HEADER */
 
+ /*#region-MAIN*/
 
-
- /* 1ST CARD */
+ /*#region-1ST CARD */
 
 
  .sect_1{
@@ -77,8 +74,9 @@
     border-radius: .5rem;
     
  }
+/*#endregion-1ST CARD */
 
- /* 2ND CARD */
+/*#region-2ND CARD */
 
  .sect_2{
    /*  display: flex; */
@@ -107,8 +105,9 @@
     background-color: lightsalmon;
     border: 1px dashed black; /* DEBUG-FEATURE!!! */
  }
+/*#endregion-2ND CARD */
 
-/* 3RD CARD */
+/*#region-3RD CARD */
 
  .sect_3{
     /*  display: flex; */
@@ -137,8 +136,9 @@
      background-color: lightsalmon;
      border: 1px dashed black; /* DEBUG-FEATURE!!! */
   }
+/*#endregion-3RD CARD */
 
-  /* 4TH CARD */
+/*#region-4TH CARD */
 
  .sect_4{
     /*  display: flex; */
@@ -168,8 +168,9 @@
      background-color: lightsalmon;
      border: 1px dashed black; /* DEBUG-FEATURE!!! */
   }
+/*#endregion-4TH CARD */
 
-  /* 5TH CARD */
+/*#region-5TH CARD */
 
 
  .sect_5{
@@ -188,3 +189,14 @@
     height: 40rem;
  
  }
+/*#endregion-5TH CARD */
+
+ /*#endregion-MAIN*/
+
+/*#region-FOOTER */
+
+
+
+
+/*#endregion-FOOTER  */
+
