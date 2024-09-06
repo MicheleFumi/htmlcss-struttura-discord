@@ -1,0 +1,22 @@
+/* region_common */
+*{
+    Margin:0;
+    Padding: 0;
+    Box-sizing: border-box;
+    }
+    
+    Img{
+    Max-width: 100%
+}
+/* HEADER COMMON */
+.header{
+    background-color: aqua;
+    padding: 1rem;
+}
+
+/* FLEX_HEADER */
+.h_fl_container{
+display: flex;
+
+
+}
